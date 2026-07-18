@@ -17,9 +17,9 @@ const NAV_LINKS = [
 ];
 
 const ABOUT_LINKS = [{ label: "Message from Director's Desk", href: "/about/message-from-director" }];
-const PROGRAMS_LINKS = [{ label: "M.Sc.(CA & IT)", href: "/programs/m-sc-ca-it" }, { label: "Integrated MBA", href: "/programs/integrated-mba" }];
-const PLACEMENTS_LINKS = [{ label: "M.Sc.(CA & IT) Placements", href: "/placements/m-sc-ca-it" }, { label: "Integrated MBA Placements", href: "/placements/mba" }];
-const FACULTY_LINKS = [{ label: "M.Sc.(CA & IT) Faculty", href: "/faculty/msc-it" }, { label: "Integrated MBA Faculty", href: "/faculty/mba" }];
+const PROGRAMS_LINKS = [{ label: "M.Sc.(CA & IT)", href: "/programs/m-sc-ca-it" }, { label: "MBA", href: "/programs/integrated-mba" }];
+const PLACEMENTS_LINKS = [{ label: "M.Sc.(CA & IT) Placements", href: "/placements/m-sc-ca-it" }, { label: "MBA Placements", href: "/placements/mba" }];
+const FACULTY_LINKS = [{ label: "M.Sc.(CA & IT) Faculty", href: "/faculty/msc-it" }, { label: "MBA Faculty", href: "/faculty/mba" }];
 
 export const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
